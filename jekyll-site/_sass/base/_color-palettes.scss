@@ -1,0 +1,66 @@
+// User Interface Palette
+
+//Kelpie Colours
+
+$earth: #ff5335;
+$water: #081937;
+$growth: #306e73;
+$wine: #bd223f;
+$sand: #b29c85;
+$moisture: #3b424c;
+
+// Greys
+$neutral: grey;
+
+$brand-colors: (
+earth: $earth,
+wine: $wine,
+sand: $sand,
+growth: $growth,
+moisture: $moisture,
+water: $water,
+neutral: $neutral,
+);
+
+$primary: $earth;
+$secondary: $water;
+
+$primary-rgb: rgba($primary, 1);
+$secondary-rgb: rgba($secondary, 1);
+
+.primary { color: $primary-rgb; }
+.secondary { color: $secondary-rgb; }
+
+$warning: #FFDC0B;
+$success: #318700;
+$grey-nav: #414141;
+$grey-item: #757575;
+$grey-hover: #E0E0E0;
+$grey-page: #F8F8F8;
+$highlight-subtle: #FCF8E3;
+
+$rev: #ffffff;
+$blk: #000000;
+
+@each $color, $value in $brand-colors{
+  .#{$color}-2 {background-color: mix(white, $value, 20%);}
+  .#{$color}-4 {background-color: mix(white, $value, 40%);}
+  .#{$color}-6 {background-color: mix(white, $value, 60%);}
+  .#{$color}-8 {background-color: mix(white, $value, 80%);}
+  .#{$color} {background-color: $value; color: #fff;}
+  .#{$color}-1 {background-color: mix(black, $value, 10%); color: #fff;}
+  .#{$color}-3 {background-color: mix(black, $value, 30%); color: #fff;}
+  .#{$color}-5 {background-color: mix(black, $value, 50%); color: #fff;}
+  .#{$color}-7 {background-color: mix(black, $value, 70%); color: #fff;}
+  .#{$color}-tint {background-color: mix(white, $value, 95%);}
+  .#{$color}-light {background-color: mix((lighten($neutral, 30%)), $value, 80%); color: #fff;}
+  .#{$color}-dark {background-color: mix($neutral, $value, 80%); color: #fff;}
+  .#{$color}-trans {background-color: transparentize($value, .5); color: #fff;}
+}
+
+// Overlays
+
+$overlay-1: linear-gradient(to left, rgba($blk, .1), rgba($blk, .1));
+$overlay-3: linear-gradient(to left, rgba($blk, .2), rgba($blk, .2));
+$overlay-2: linear-gradient(to left, rgba($rev, .1), rgba($rev, .1));
+$overlay-4: linear-gradient(to left, rgba($rev, .2), rgba($rev, .2));

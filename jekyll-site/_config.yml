@@ -1,0 +1,69 @@
+# Site settings
+title: Grid Up Site
+email: your-email@domain.com
+description: "Jekyll Theme built using CSS Grid"
+baseurl: "" # the subpath of your site, e.g. /blog/
+logo: assets/images/logo.svg
+
+
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+encoding: utf-8
+
+#social
+social-twitter: kelpieapp
+social-facebook: kelpieapp
+social-linkedin: company/kelpie
+
+#contacts
+contact-email:
+contact-address:
+contact-phone:
+
+# Setup for pages
+include: ["_pages"]
+permalink: /:categories/:title.html
+
+# Setup for Categories
+
+
+#Timezone
+timezone: Australia/Sydney
+
+# sass:
+#   style: compressed
+
+# Build settings
+markdown: kramdown
+
+#Colors
+
+colors:
+  - primary: "255,83,53"
+  - secondary: "8,25,55"
+
+# Maps
+
+google_maps_javascript_api_key: "AIzaSyCokyUeWni-eQFPDP7IkCWNdi568wlQSTM"
+
+# Contact Form API from 99inbound
+
+99inbound: RMmElicI
+
+# Team
+team:
+  - name: Tim Klapdor
+    greeting: Tim
+    position: Co-Founder
+    bio: "Tim has a background in Graphic Design and Multimedia and has been working in the Education sector for the last decade. During this time Tim has worked on large and small scale innovations and implementations of new and emerging technologies. He has a knack for acting as a translator between users and technical staff, helping both to understand each other and deliver solutions that work."
+    photo: /assets/images/tim-mugshot.jpg
+    email: thekelpieapp@gmail.com
+    twitter: timklapdor
+    linkedin: timklapdor
+  - name: Ben Atkinson
+    greeting: Ben
+    position: Co-Founder
+    bio: "Ben has a background in multimedia development and is currently studying his Masters in App Development. Working across a number of industries Ben is able to adapt and work across multiple disciplines and environments. From video to print to digital, Ben has done it all. He brings enthusiasm and keen problem solving skills to the team."
+    photo: /assets/images/ben-mugshot.jpg
+    email: thekelpieapp@gmail.com
+    twitter: rockickarse
+    linkedin: ben-atkinson-72478553
