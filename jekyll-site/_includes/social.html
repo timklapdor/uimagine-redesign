@@ -1,5 +1,5 @@
 <div class="social">
-  {% for item in site.social-twitter %}<a href="https://www.twitter.com/{{ item }}"><img src="assets/images/twitter.svg" /></a>{% endfor %}
-  {% for item in site.social-facebook %}<a href="https://www.facebook.com/{{ item }}"><img src="assets/images/facebook-f.svg" /></a>{% endfor %}
-  {% for item in site.social-linkedin %}<a href="https://www.linkedin.com/{{ item }}"><img src="assets/images/linkedin-in.svg" /></a>{% endfor %}
+  {% for item in site.social-twitter %}<a href="https://www.twitter.com/{{ item }}"><img src="{{ site.baseurl }}assets/images/twitter.svg" /></a>{% endfor %}
+  {% for item in site.social-facebook %}<a href="https://www.facebook.com/{{ item }}"><img src="{{ site.baseurl }}assets/images/facebook-f.svg" /></a>{% endfor %}
+  {% for item in site.social-linkedin %}<a href="https://www.linkedin.com/{{ item }}"><img src="{{ site.baseurl }}assets/images/linkedin-in.svg" /></a>{% endfor %}
 </div>

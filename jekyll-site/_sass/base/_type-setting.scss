@@ -10,17 +10,17 @@ $type-reponsive: calc( 16px + (#{$type-max} - #{$type-min}) * ( (100vw - 300px) 
 
 /**  Sans Serif **/
 
-$font-sans: 'Barlow', 'Helvetica', 'Arial', sans-serif !important;
+$font-text: 'Open Sans', 'Helvetica', 'Arial', sans-serif !important;
 
 /**  Serif **/
 
-$font-serif: 'Zilla Slab', Times, Georgia, serif !important;
+$font-headings: 'Montserrat', Times, Georgia, serif !important;
 
 /** Font Settings **/
 
 body {
   font-size: $type-reponsive;
-  font-family: $font-sans;
+  font-family: $font-text;
 }
 
 // @media  screen and (min-width: 2400px) {
@@ -40,9 +40,9 @@ p {font-size: 100%; padding: 0.2em 0 0 0; line-height: 1.7;}
 
 /** Set Fonts **/
 
-p {font-family: $font-sans}
+p {font-family: $font-text}
 
-h1, h2, h3, h4, h5, h6, aside {font-family: $font-serif}
+h1, h2, h3, h4, h5, h6, aside {font-family: $font-headings}
 
 p, blockquote, ul, ol { line-height: 1.7;}
 

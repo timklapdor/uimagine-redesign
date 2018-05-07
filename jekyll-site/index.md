@@ -6,15 +6,15 @@ hero:
 - id:
   full-screen: true
   gradient-corner: top
-  gradient-side: left
-  gradient-color1: "255,83,53,.6"
-  gradient-color2: "8,25,55,.6"
+  gradient-side:
+  gradient-color1: "215,31,133,.6"
+  gradient-color2: "255,88,0,.6"
   image: assets/images/benjamin-davies-265095.jpg
-  promo-head: Welcome to Kelpie
-  promo-text: the Digital Working Dog
-  button-class: btn-rev
-  button-text: Read Our Story
-  button-link: about.html
+  promo-head: Welcome to uImagine
+  promo-text: Innovate | Incubate | Educate
+  // button-class: btn-rev
+  // button-text: Read Our Story
+  // button-link: about.html
 area-heading: Something Goes Here
 grid-items:
 - name: Something
@@ -56,10 +56,10 @@ grid-items:
 feature:
 - id:   
   full-screen: false
-  gradient-corner: top
-  gradient-side: left
-  gradient-color1: "8,25,55,1"
-  gradient-color2: "8,25,55,1"
+  gradient-corner: bottom
+  gradient-side:
+  gradient-color1: "255,88,0,1"
+  gradient-color2: "215,31,133,1"
 #  image: assets/images/agence-producteurs-locaux-damien-kuhn-97729.jpg
   text-area:
   - size: tall
@@ -95,8 +95,8 @@ feature:
   full-screen: false
   gradient-corner: top
   gradient-side:
-  gradient-color1: "255,83,53,1"
-  gradient-color2: "8,25,55,1"
+  gradient-color1: "255,88,0,1"
+  gradient-color2: "215,31,133,1"
   image:
   text-area:
   - size: centered

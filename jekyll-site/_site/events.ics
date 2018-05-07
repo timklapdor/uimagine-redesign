@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://www.uimagine.edu.au/
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:20180507@uimagine.edu.au
+ORGANIZER;CN="u!magine":MAILTO:uimagine@csu.edu.au
+LOCATION:CSU Wagga Campus
+SUMMARY:Coming soon a think tank exploring Alternative Staffing Approaches for Scaleable Distance Education.
+CLASS:PUBLIC
+DTSTART:20150915TI
+DTEND:20150916TI
+DTSTAMP:20150916TI
+END:VEVENT
+
+
+
+END:VCALENDAR

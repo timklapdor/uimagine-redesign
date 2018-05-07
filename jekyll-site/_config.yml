@@ -2,8 +2,8 @@
 title: Grid Up Site
 email: your-email@domain.com
 description: "Jekyll Theme built using CSS Grid"
-baseurl: "" # the subpath of your site, e.g. /blog/
-logo: assets/images/logo.svg
+baseurl: "/jekyll-site/" # the subpath of your site, e.g. /blog/
+logo: assets/images/uimagine-rev.svg
 
 
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -26,6 +26,13 @@ permalink: /:categories/:title.html
 # Setup for Categories
 
 
+# Setup for Collections
+collections:
+  events:
+    output: true
+    permalink: /:collection/:name
+
+
 #Timezone
 timezone: Australia/Sydney
 
@@ -40,6 +47,9 @@ markdown: kramdown
 colors:
   - primary: "255,83,53"
   - secondary: "8,25,55"
+
+#Fonts
+font-link: https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400
 
 # Maps
 

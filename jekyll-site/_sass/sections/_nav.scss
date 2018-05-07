@@ -1,6 +1,7 @@
 nav {
   flex: 2 2 100%;
   order: 1;
+  width: 100%
 }
 
 #menu {
@@ -18,11 +19,11 @@ nav ul {
 
 nav ul li{
   list-style-type: none;
-  background: $primary;
+  background: rgba($secondary,.9);
 }
 
 nav ul li a {
-  padding: 1em 1.5em;
+  padding: .7em 1em;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
@@ -39,7 +40,7 @@ nav ul li a {
 .dropdown ul a {
   font-size: 80%;
   border-top: 1px solid rgba($blk, .1);
-  background: darken($primary, 20%);
+  background: $secondary-rgb;
 }
 
 nav ul li:hover, .dropdown ul a:hover {
@@ -70,7 +71,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 label.show-menu:hover{
-  background: darken($primary, 20%);
+  background: $primary-rgb;
   }
 
 @media only screen and (max-width:480px){
@@ -83,8 +84,8 @@ label.show-menu:hover{
   .dropdown ul .dropdown ul a{
     padding-left: 3rem;
   }
-nav ul li:hover, .dropdown ul a:hover {
-  background: darken($primary, 30%)
+nav ul li:hover {
+  background: $primary-rgb;
 }
   .arrow-down::after{
     content:"\f107";
@@ -105,6 +106,10 @@ nav ul li:hover, .dropdown ul a:hover {
     flex-direction:row;
    justify-content:flex-end;
   }
+
+  nav ul ul{
+  flex-direction: column;
+}
   nav ul li{
     position:relative;
     flex:1 0 auto;
@@ -132,6 +137,7 @@ nav ul li:hover, .dropdown ul a:hover {
   nav ul li:hover ul,  .dropdown ul .dropdown:hover ul{
      display: flex;
      flex-direction: column;
+     background-color: rgba($primary, .7);
 
 }
 }

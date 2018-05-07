@@ -24,10 +24,10 @@ header, footer {
     display: grid;
     grid-template-columns: 5vw 1fr 5vw;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
+    // grid-template-areas:
+    // "header header header"
+    // "main main main"
+    // "footer footer footer";
   }
   header, footer {
     flex-direction: row;
@@ -64,6 +64,17 @@ div {
 }
 
 
-header {grid-area: header; flex-grow: 1}
-main {grid-area: main; flex-grow: 3; background: #FAF9F8;}
-footer {grid-area: footer; flex-grow: 1}
+header {
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row: 1;
+	z-index: 20;
+	flex-grow: 1}
+main {
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	flex-grow: 3;
+	background: #FAF9F8;}
+footer {grid-column: span 3; grid-row: 3 / span 1; flex-grow: 1}

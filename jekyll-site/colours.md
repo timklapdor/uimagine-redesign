@@ -3,12 +3,11 @@
 title: Kelpie Colours
 layout: palette
 colours:
-- earth
-- wine
-- sand
-- water
-- growth
-- moisture
+- ui-blue
+- ui-pink
+- ui-orange
+- ui-fuchia
+- ui-grey
 - neutral
 
 ---

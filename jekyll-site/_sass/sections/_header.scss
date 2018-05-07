@@ -1,8 +1,8 @@
 header {
-  color: $rev;
-  background: $primary;
+  color: $grey;
+  background: $secondary;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 
  & > div {
@@ -38,8 +38,11 @@ img {
 
 @media only screen and (min-width:600px){
   header {
+    flex-direction: row;
+    background: $secondary-rgb;
+
     div.social {
-      padding-left: 10vw;
+      padding-left: 5vw;
       display: flex;
   }
 }

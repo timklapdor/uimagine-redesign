@@ -2,31 +2,29 @@
 
 //Kelpie Colours
 
-$earth: #ff5335;
-$water: #081937;
-$growth: #306e73;
-$wine: #bd223f;
-$sand: #b29c85;
-$moisture: #3b424c;
+$blue: #00AFD8;
+$fuchia: #CB0044;
+$grey: #333333;
+$orange: #FF5800;
+$pink: #D71F85;
 
 // Greys
 $neutral: grey;
 
 $brand-colors: (
-earth: $earth,
-wine: $wine,
-sand: $sand,
-growth: $growth,
-moisture: $moisture,
-water: $water,
+ui-blue: $blue,
+ui-fuchia: $fuchia,
+ui-grey: $grey,
+ui-orange: $orange,
+ui-pink: $pink,
 neutral: $neutral,
 );
 
-$primary: $earth;
-$secondary: $water;
+$primary: $orange;
+$secondary: $grey;
 
-$primary-rgb: rgba($primary, 1);
-$secondary-rgb: rgba($secondary, 1);
+$primary-rgb: rgba($primary, .4);
+$secondary-rgb: rgba($secondary, .4);
 
 .primary { color: $primary-rgb; }
 .secondary { color: $secondary-rgb; }
