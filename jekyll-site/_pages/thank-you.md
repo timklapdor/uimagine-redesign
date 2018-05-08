@@ -2,6 +2,7 @@
 
 title: Thank You!
 layout: message
+permalink: ../thank-you.html
 hero:
 - id:
   full-screen: true

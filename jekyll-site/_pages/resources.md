@@ -1,19 +1,32 @@
 ---
 
-title: About Us
+title: Resources
 layout: about
-category:
-tags:
-aside: false
-date-posted:
-author:
-hero-full-screen: false
-hero-gradient-corner: top
-hero-gradient-side: left
-hero-gradient-color1: "8,25,55,.4"
-hero-gradient-color2: "8,25,55,.4"
-hero-image: assets/images/vladimir-malyutin-105283.jpg
-hero-promo-text: About Kelpie
+permalink: ../resources.html
+hero:
+- id:
+  full-screen: false
+  gradient-corner: top
+  gradient-side:
+  gradient-color1: "203,0,68"
+  gradient-color2: "255,88,0"
+  image:
+  promo-head: Resources
+feature:
+- id:
+  full-screen: false
+  gradient-corner: bottom
+  gradient-side:
+  gradient-color1: "255,88,0"
+  gradient-color2: "255,88,0"
+  image:
+  text-area:
+  - size: centered
+    heading: Want to now what u!magine does?
+    text: ""
+    button: Explore Projects
+    button-class: btn-rev
+    button-link: features.html
 
 ---
 

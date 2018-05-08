@@ -14,7 +14,7 @@ $font-text: 'Open Sans', 'Helvetica', 'Arial', sans-serif !important;
 
 /**  Serif **/
 
-$font-headings: 'Montserrat', Times, Georgia, serif !important;
+$font-heading:'Open Sans', 'Helvetica', 'Arial', sans-serif !important;
 
 /** Font Settings **/
 
@@ -29,9 +29,9 @@ body {
 
 /**  Base Sizes **/
 
-h1 {font-size: 240%; padding: 0.2em 0 0 0; line-height: .9;}
-h2 {font-size: 200%; padding: 0.2em 0 0 0; line-height: .9;}
-h3 {font-size: 180%; padding: 0.2em 0 0 0; line-height: .9;}
+h1 {font-size: 240%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
+h2 {font-size: 200%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
+h3 {font-size: 180%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 300;}
 h4 {font-size: 150%; padding: 0.2em 0 0 0; line-height: .9;}
 h5 {font-size: 130%; padding: 0.2em 0 0 0; line-height: .9;}
 h6 {font-size: 120%; padding: 0.2em 0 0 0; margin: 0.2em 0; line-height: .9;}
@@ -42,7 +42,7 @@ p {font-size: 100%; padding: 0.2em 0 0 0; line-height: 1.7;}
 
 p {font-family: $font-text}
 
-h1, h2, h3, h4, h5, h6, aside {font-family: $font-headings}
+h1, h2, h3, h4, h5, h6, aside {font-family: $font-heading}
 
 p, blockquote, ul, ol { line-height: 1.7;}
 

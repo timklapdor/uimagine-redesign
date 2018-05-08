@@ -1,5 +1,5 @@
 section.hero {
-  min-height: 40vh;
+  min-height: 30vh;
   color: $rev;
   display: flex;
   flex-direction: column;
@@ -16,19 +16,17 @@ section.hero {
 
 h2 {
   font-size: 450%;
-  font-weight: 700;
   text-shadow: $shadow-3;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 h3 {
   font-family: $font-text;
-  font-weight: 300;
   font-size: 250%;
   margin: 0;
 }
 }
 
 .full-screen {
-    min-height: 70vh !important;
+    min-height: 75vh !important;
   }

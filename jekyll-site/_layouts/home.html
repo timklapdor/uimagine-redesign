@@ -11,8 +11,9 @@ layout: default
 {% endfor %}
 
 <!--  Grid Area -->
-
-<!-- {% include card-grid.html %} -->
+{% if page.griditems %}
+  {% include card-grid.html %}
+{% endif %}
 
 <!--  Feature -->
 

@@ -1,6 +1,6 @@
 # Site settings
-title: Grid Up Site
-email: your-email@domain.com
+title: u!magine
+email: uimagine@csu.edu.ai
 description: "Jekyll Theme built using CSS Grid"
 baseurl: "/jekyll-site/" # the subpath of your site, e.g. /blog/
 logo: assets/images/uimagine-rev.svg
@@ -44,12 +44,11 @@ markdown: kramdown
 
 #Colors
 
-colors:
-  - primary: "255,83,53"
-  - secondary: "8,25,55"
+col-primary: "255,88,0"
+col-secondary: "215,31,133"
 
 #Fonts
-font-link: https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400
+font-link: https://fonts.googleapis.com/css?family=Open+Sans:300,400,700
 
 # Maps
 

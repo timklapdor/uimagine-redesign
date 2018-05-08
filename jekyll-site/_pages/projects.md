@@ -2,15 +2,16 @@
 
 title: Features of Kelpie
 layout: home
+permalink: ../projects.html
 hero:
 - id:
   full-screen: false
   gradient-corner: top
   gradient-side: left
-  gradient-color1: "255,83,53,.3"
-  gradient-color2: "8,25,55,.3"
-  image: assets/images/nicole-harrington-58566.jpg
-  promo-head: What does Kelpie do?
+  gradient-color1: "203,0,68"
+  gradient-color2: "0,175,216"
+  image:
+  promo-head: Projects
   promo-text:
   button-class:
   button-text:

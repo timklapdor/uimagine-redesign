@@ -2,14 +2,15 @@
 
 title: Contact
 layout: message
+permalink: ../contact.html
 hero:
 - id:
   full-screen: false
-  gradient-corner: top
+  gradient-corner: bottom
   gradient-side: left
-  gradient-color1: "0,0,0,0"
+  gradient-color1: "0,175,216"
   gradient-color2: "8,25,55,.6"
-  image: assets/images/vladimir-malyutin-105283.jpg
+  image:
   promo-head: We want to hear from you
 form: contact
 

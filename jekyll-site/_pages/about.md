@@ -2,14 +2,15 @@
 
 title: About Kelpie
 layout: about
+permalink: ../about.html
 hero:
 - id:
   full-screen: false
   gradient-corner: top
-  gradient-side: left
-  gradient-color1: "0,0,0,0"
-  gradient-color2: "8,25,55,.6"
-  image: assets/images/vladimir-malyutin-105283.jpg
+  gradient-side:
+  gradient-color1: "203,0,68"
+  gradient-color2: "215,31,133"
+  image:
   promo-head: About Us
 feature:
 - id:

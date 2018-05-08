@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li{
   list-style-type: none;
-  background: rgba($secondary,.9);
+  background: $secondary;
 }
 
 nav ul li a {
@@ -31,6 +31,11 @@ nav ul li a {
   text-align: center;
 }
 
+nav ul li a:hover {
+  background-image: $overlay-1;
+}
+
+
 .dropdown ul {
   padding: 0;
   margin-left: auto;
@@ -40,8 +45,17 @@ nav ul li a {
 .dropdown ul a {
   font-size: 80%;
   border-top: 1px solid rgba($blk, .1);
-  background: $secondary-rgb;
+  background: $grey;
+  text-transform: capitalize;
 }
+
+.dropdown ul li:last-child {
+  border-bottom: 1px solid rgba($rev, .2);
+}
+
+// .dropdown ul li > a:before {
+//   content: '\2014\00a0'
+// }
 
 nav ul li:hover, .dropdown ul a:hover {
   background-image: $overlay-1;
@@ -71,7 +85,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 label.show-menu:hover{
-  background: $primary-rgb;
+  background: $secondary-rgb;
   }
 
 @media only screen and (max-width:480px){
@@ -85,14 +99,14 @@ label.show-menu:hover{
     padding-left: 3rem;
   }
 nav ul li:hover {
-  background: $primary-rgb;
+  background: $secondary-rgb;
 }
   .arrow-down::after{
     content:"\f107";
   }
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:1100px){
   nav {
     flex: 1 1 20%;
     order: 0;
@@ -124,20 +138,21 @@ nav ul li:hover {
     content: '\2003+'
   }
 
-  .dropdown ul, .dropdown ul .dropdown ul{
+  .dropdown ul, .dropdown ul .dropdown ul {
     display: none;
     width:100%;
     position: absolute;
     padding: 0;
   }
-  .dropdown ul .dropdown ul{
+  .dropdown ul .dropdown ul {
     left:100%;
     top:0;
   }
-  nav ul li:hover ul,  .dropdown ul .dropdown:hover ul{
+  nav ul li:hover ul,  .dropdown ul .dropdown:hover ul {
      display: flex;
      flex-direction: column;
-     background-color: rgba($primary, .7);
-
+}
+.dropdown ul li > a:before {
+  content: ''
 }
 }

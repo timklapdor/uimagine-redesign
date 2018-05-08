@@ -13,6 +13,16 @@ a {
   color: $rev;
   text-decoration: none;
 }
+
+div.brand img:hover {
+  background: rgba($blk, .2);
+  border-radius: 1em;
+}
+
+div.social img:hover {
+  background: rgba($blk, .2);
+}
+
 div.social {
   display: none;
 
@@ -42,7 +52,7 @@ img {
     background: $secondary-rgb;
 
     div.social {
-      padding-left: 5vw;
+      // padding-left: 5vw;
       display: flex;
   }
 }
@@ -50,6 +60,6 @@ img {
 
 @media only screen and (min-width:1100px){
  .brand {
-   padding-right: 10vw;
+  //  padding-right: 5vw;
  }
 }
