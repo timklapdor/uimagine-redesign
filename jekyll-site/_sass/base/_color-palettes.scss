@@ -1,33 +1,29 @@
 // User Interface Palette
 
-//Kelpie Colours
+//Brand Colours
 
-$blue: #00AFD8;
-$fuchia: #CB0044;
-$grey: #333333;
-$orange: #FF5800;
-$pink: #D71F85;
+$brand: #FF5800;
+$brand-1: #333333;
+$brand-2: #00AFD8;
+$brand-3: #CB0044;
+$brand-4: #D71F85;
 
 // Greys
 $neutral: grey;
 
 $brand-colors: (
-ui-blue: $blue,
-ui-fuchia: $fuchia,
-ui-grey: $grey,
-ui-orange: $orange,
-ui-pink: $pink,
-neutral: $neutral,
+ui-orange: $brand,
+ui-grey: $brand-1,
+ui-blue: $brand-2,
+ui-fuchia: $brand-3,
+ui-pink: $brand-4,
 );
 
-$primary: $orange;
-$secondary: $grey;
+$brand-rgb: rgba($brand, .4);
+$brand-1-rgb: rgba($brand-1, .4);
 
-$primary-rgb: rgba($primary, .4);
-$secondary-rgb: rgba($secondary, .4);
-
-.primary { color: $primary-rgb; }
-.secondary { color: $secondary-rgb; }
+.primary { color: $brand-rgb; }
+.secondary { color: $brand-1-rgb; }
 
 $warning: #FFDC0B;
 $success: #318700;
@@ -41,19 +37,32 @@ $rev: #ffffff;
 $blk: #000000;
 
 @each $color, $value in $brand-colors{
-  .#{$color}-2 {background-color: mix(white, $value, 20%);}
-  .#{$color}-4 {background-color: mix(white, $value, 40%);}
-  .#{$color}-6 {background-color: mix(white, $value, 60%);}
-  .#{$color}-8 {background-color: mix(white, $value, 80%);}
-  .#{$color} {background-color: $value; color: #fff;}
-  .#{$color}-1 {background-color: mix(black, $value, 10%); color: #fff;}
-  .#{$color}-3 {background-color: mix(black, $value, 30%); color: #fff;}
-  .#{$color}-5 {background-color: mix(black, $value, 50%); color: #fff;}
-  .#{$color}-7 {background-color: mix(black, $value, 70%); color: #fff;}
-  .#{$color}-tint {background-color: mix(white, $value, 95%);}
-  .#{$color}-light {background-color: mix((lighten($neutral, 30%)), $value, 80%); color: #fff;}
-  .#{$color}-dark {background-color: mix($neutral, $value, 80%); color: #fff;}
-  .#{$color}-trans {background-color: transparentize($value, .5); color: #fff;}
+  .#{$color}-2 {color: mix(white, $value, 20%) !important;}
+  .#{$color}-4 {color: mix(white, $value, 40%) !important;}
+  .#{$color}-6 {color: mix(white, $value, 60%) !important;}
+  .#{$color}-8 {color: mix(white, $value, 80%) !important;}
+  .#{$color} {color: $value !important;}
+  .#{$color}-1 {color: mix(black, $value, 10%) !important;}
+  .#{$color}-3 {color: mix(black, $value, 30%) !important;}
+  .#{$color}-5 {color: mix(black, $value, 50%) !important;}
+  .#{$color}-7 {color: mix(black, $value, 70%) !important;}
+  .#{$color}-tint {color: mix(white, $value, 95%) !important;}
+  .#{$color}-light {color: mix((lighten($neutral, 30%)), $value, 80%) !important;}
+  .#{$color}-dark {color: mix($neutral, $value, 80%) !important;}
+  .#{$color}-bg-trans {background-color: transparentize($value, .5); color: #fff;}
+  .#{$color}-bg-2 {background-color: mix(white, $value, 20%);}
+  .#{$color}-bg-4 {background-color: mix(white, $value, 40%);}
+  .#{$color}-bg-6 {background-color: mix(white, $value, 60%);}
+  .#{$color}-bg-8 {background-color: mix(white, $value, 80%);}
+  .#{$color}-bg {background-color: $value; color: #fff;}
+  .#{$color}-bg-1 {background-color: mix(black, $value, 10%); color: #fff;}
+  .#{$color}-bg-3 {background-color: mix(black, $value, 30%); color: #fff;}
+  .#{$color}-bg-5 {background-color: mix(black, $value, 50%); color: #fff;}
+  .#{$color}-bg-7 {background-color: mix(black, $value, 70%); color: #fff;}
+  .#{$color}-bg-tint {background-color: mix(white, $value, 95%);}
+  .#{$color}-bg-light {background-color: mix((lighten($neutral, 30%)), $value, 80%); color: #fff;}
+  .#{$color}-bg-dark {background-color: mix($neutral, $value, 80%); color: #fff;}
+  .#{$color}-bg-trans {background-color: transparentize($value, .5); color: #fff;}
 }
 
 // Overlays
@@ -62,3 +71,28 @@ $overlay-1: linear-gradient(to left, rgba($blk, .1), rgba($blk, .1));
 $overlay-3: linear-gradient(to left, rgba($blk, .2), rgba($blk, .2));
 $overlay-2: linear-gradient(to left, rgba($rev, .1), rgba($rev, .1));
 $overlay-4: linear-gradient(to left, rgba($rev, .2), rgba($rev, .2));
+
+
+// Buttons
+
+@each $color, $value in $brand-colors{
+.btn-#{$color} {
+  color: $rev;
+  transition: all 0.3s ease 0s;
+
+&:hover {
+  background: rgba($value, .9);
+  box-shadow: $shadow-4;
+  }
+}
+.btn-blk-#{$color} {
+  color: $blk;
+  transition: all 0.3s ease 0s;
+
+&:hover {
+  color: $rev;
+  background: rgba($value, .9);
+  box-shadow: $shadow-4;
+  }
+}
+}

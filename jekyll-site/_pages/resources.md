@@ -1,8 +1,8 @@
 ---
 
-title: Resources
 layout: about
-permalink: ../resources.html
+title: Resources
+permalink: resources.html
 hero:
 - id:
   full-screen: false

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>u!magine</title>
+    <description>uImagine is the Learning Innovations Lab at Charles Sturt University</description>
+    <link>http://localhost:4000/stuff/</link>
+    <atom:link href="http://localhost:4000/stuff/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 11 May 2018 15:28:32 +1000</pubDate>
+    <lastBuildDate>Fri, 11 May 2018 15:28:32 +1000</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Nothing Else</title>
+        <description>&lt;h2 id=&quot;nothing-else&quot;&gt;Nothing Else&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur post Tarentum ad Archytam? &lt;b&gt;Praeclarae mortes sunt imperatoriae;&lt;/b&gt; Duo Reges: constructio interrete. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si quicquam extra virtutem habeatur in bonis. Si quicquam extra virtutem habeatur in bonis. &lt;/p&gt;
+
+&lt;p&gt;Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Quam tu ponis in verbis, ego positam in re putabam. &lt;/p&gt;
+
+&lt;p&gt;Et hercule-fatendum est enim, quod sentio -mirabilis est apud illos contextus rerum. Neque solum ea communia, verum etiam paria esse dixerunt. Miserum hominem! Si dolor summum malum est, dici aliter non potest. In schola desinis. Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Quis enim est, qui non videat haec esse in natura rerum tria? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Non est ista, inquam, Piso, magna dissensio.&lt;/a&gt; Ille incendat? Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus; &lt;/p&gt;
+
+&lt;p&gt;Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit; &lt;mark&gt;Quonam, inquit, modo?&lt;/mark&gt; Quod autem satis est, eo quicquid accessit, nimium est; Semper enim ex eo, quod maximas partes continet latissimeque funditur, tota res appellatur. &lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Eaedem res maneant alio modo.&lt;/i&gt; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Minime vero, inquit ille, consentit. Ergo id est convenienter naturae vivere, a natura discedere. Satisne vobis videor pro meo iure in vestris auribus commentatus? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Age sane, inquam.&lt;/a&gt; Hic nihil fuit, quod quaereremus. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 12:00:00 +1000</pubDate>
+        <link>http://localhost:4000/stuff//2018/nothing-else.html</link>
+        <guid isPermaLink="true">http://localhost:4000/stuff//2018/nothing-else.html</guid>
+        
+        <category>something</category>
+        
+        <category>else</category>
+        
+      </item>
+    
+      <item>
+        <title>Everything Else is fine</title>
+        <description>&lt;h2 id=&quot;all-else&quot;&gt;All Else&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur post Tarentum ad Archytam? &lt;b&gt;Praeclarae mortes sunt imperatoriae;&lt;/b&gt; Duo Reges: constructio interrete. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si quicquam extra virtutem habeatur in bonis. Si quicquam extra virtutem habeatur in bonis. &lt;/p&gt;
+
+&lt;p&gt;Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Quam tu ponis in verbis, ego positam in re putabam. &lt;/p&gt;
+
+&lt;p&gt;Et hercule-fatendum est enim, quod sentio -mirabilis est apud illos contextus rerum. Neque solum ea communia, verum etiam paria esse dixerunt. Miserum hominem! Si dolor summum malum est, dici aliter non potest. In schola desinis. Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Quis enim est, qui non videat haec esse in natura rerum tria? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Non est ista, inquam, Piso, magna dissensio.&lt;/a&gt; Ille incendat? Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus; &lt;/p&gt;
+
+&lt;p&gt;Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit; &lt;mark&gt;Quonam, inquit, modo?&lt;/mark&gt; Quod autem satis est, eo quicquid accessit, nimium est; Semper enim ex eo, quod maximas partes continet latissimeque funditur, tota res appellatur. &lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Eaedem res maneant alio modo.&lt;/i&gt; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Minime vero, inquit ille, consentit. Ergo id est convenienter naturae vivere, a natura discedere. Satisne vobis videor pro meo iure in vestris auribus commentatus? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Age sane, inquam.&lt;/a&gt; Hic nihil fuit, quod quaereremus. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 11:00:00 +1000</pubDate>
+        <link>http://localhost:4000/stuff//2018/everything-else.html</link>
+        <guid isPermaLink="true">http://localhost:4000/stuff//2018/everything-else.html</guid>
+        
+        <category>something</category>
+        
+        <category>else</category>
+        
+      </item>
+    
+      <item>
+        <title>Another post with a title involved</title>
+        <description>&lt;h2 id=&quot;something-else-entirely&quot;&gt;Something Else Entirely&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur post Tarentum ad Archytam? &lt;b&gt;Praeclarae mortes sunt imperatoriae;&lt;/b&gt; Duo Reges: constructio interrete. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si quicquam extra virtutem habeatur in bonis. Si quicquam extra virtutem habeatur in bonis. &lt;/p&gt;
+
+&lt;p&gt;Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Quam tu ponis in verbis, ego positam in re putabam. &lt;/p&gt;
+
+&lt;p&gt;Et hercule-fatendum est enim, quod sentio -mirabilis est apud illos contextus rerum. Neque solum ea communia, verum etiam paria esse dixerunt. Miserum hominem! Si dolor summum malum est, dici aliter non potest. In schola desinis. Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Quis enim est, qui non videat haec esse in natura rerum tria? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Non est ista, inquam, Piso, magna dissensio.&lt;/a&gt; Ille incendat? Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus; &lt;/p&gt;
+
+&lt;p&gt;Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit; &lt;mark&gt;Quonam, inquit, modo?&lt;/mark&gt; Quod autem satis est, eo quicquid accessit, nimium est; Semper enim ex eo, quod maximas partes continet latissimeque funditur, tota res appellatur. &lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Eaedem res maneant alio modo.&lt;/i&gt; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Minime vero, inquit ille, consentit. Ergo id est convenienter naturae vivere, a natura discedere. Satisne vobis videor pro meo iure in vestris auribus commentatus? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Age sane, inquam.&lt;/a&gt; Hic nihil fuit, quod quaereremus. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 10:00:00 +1000</pubDate>
+        <link>http://localhost:4000/stuff//2018/something-else.html</link>
+        <guid isPermaLink="true">http://localhost:4000/stuff//2018/something-else.html</guid>
+        
+        <category>something</category>
+        
+        <category>else</category>
+        
+      </item>
+    
+      <item>
+        <title>Need a really, really, long title to go here</title>
+        <description>&lt;h2 id=&quot;starting-from-the-start&quot;&gt;Starting from the Start&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur post Tarentum ad Archytam? &lt;b&gt;Praeclarae mortes sunt imperatoriae;&lt;/b&gt; Duo Reges: constructio interrete. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si quicquam extra virtutem habeatur in bonis. Si quicquam extra virtutem habeatur in bonis. &lt;/p&gt;
+
+&lt;p&gt;Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Quam tu ponis in verbis, ego positam in re putabam. &lt;/p&gt;
+
+&lt;p&gt;Et hercule-fatendum est enim, quod sentio -mirabilis est apud illos contextus rerum. Neque solum ea communia, verum etiam paria esse dixerunt. Miserum hominem! Si dolor summum malum est, dici aliter non potest. In schola desinis. Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Quis enim est, qui non videat haec esse in natura rerum tria? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Non est ista, inquam, Piso, magna dissensio.&lt;/a&gt; Ille incendat? Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus; &lt;/p&gt;
+
+&lt;p&gt;Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit; &lt;mark&gt;Quonam, inquit, modo?&lt;/mark&gt; Quod autem satis est, eo quicquid accessit, nimium est; Semper enim ex eo, quod maximas partes continet latissimeque funditur, tota res appellatur. &lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Eaedem res maneant alio modo.&lt;/i&gt; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Minime vero, inquit ille, consentit. Ergo id est convenienter naturae vivere, a natura discedere. Satisne vobis videor pro meo iure in vestris auribus commentatus? &lt;a href=&quot;http://loripsum.net/&quot; target=&quot;_blank&quot;&gt;Age sane, inquam.&lt;/a&gt; Hic nihil fuit, quod quaereremus. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 09:00:00 +1000</pubDate>
+        <link>http://localhost:4000/stuff//2018/testing-1-2-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/stuff//2018/testing-1-2-3.html</guid>
+        
+        <category>something</category>
+        
+        <category>else</category>
+        
+      </item>
+    
+  </channel>
+</rss>

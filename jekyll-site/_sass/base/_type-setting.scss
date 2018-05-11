@@ -32,8 +32,8 @@ body {
 h1 {font-size: 240%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
 h2 {font-size: 200%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
 h3 {font-size: 180%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 300;}
-h4 {font-size: 150%; padding: 0.2em 0 0 0; line-height: .9;}
-h5 {font-size: 130%; padding: 0.2em 0 0 0; line-height: .9;}
+h4 {font-size: 150%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
+h5 {font-size: 130%; padding: 0.2em 0 0 0; line-height: .9; font-weight: 700; letter-spacing: -.04em;}
 h6 {font-size: 120%; padding: 0.2em 0 0 0; margin: 0.2em 0; line-height: .9;}
 p {font-size: 100%; padding: 0.2em 0 0 0; line-height: 1.7;}
 
@@ -49,11 +49,11 @@ p, blockquote, ul, ol { line-height: 1.7;}
 
 /** Base Styles **/
 
-code {font-size: 95%; color: $secondary; background: #f8f8f8; padding: 0.4em; margin: .5vw;}
+code {font-size: 95%; color: $brand-1; background: #f8f8f8; padding: 0.4em; margin: .5vw;}
 p code {padding: .125em; margin: 0;}
 
 a {
-  color: $primary;
+  color: $brand;
   // transition: all 0.5s ease;
   text-decoration-skip: ink;
   webkit-perspective: none;

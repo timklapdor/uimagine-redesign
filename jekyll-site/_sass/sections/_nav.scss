@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li{
   list-style-type: none;
-  background: $secondary;
+  background: $brand-1;
 }
 
 nav ul li a {
@@ -45,7 +45,7 @@ nav ul li a:hover {
 .dropdown ul a {
   font-size: 80%;
   border-top: 1px solid rgba($blk, .1);
-  background: $grey;
+  background: $brand-1;
   text-transform: capitalize;
 }
 
@@ -85,7 +85,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 label.show-menu:hover{
-  background: $secondary-rgb;
+  background: $brand-1-rgb;
   }
 
 @media only screen and (max-width:480px){
@@ -99,7 +99,7 @@ label.show-menu:hover{
     padding-left: 3rem;
   }
 nav ul li:hover {
-  background: $secondary-rgb;
+  background: $brand-1-rgb;
 }
   .arrow-down::after{
     content:"\f107";

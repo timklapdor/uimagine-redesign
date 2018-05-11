@@ -1,8 +1,8 @@
 ---
 
-title: Contact
 layout: message
-permalink: ../contact.html
+title: Contact
+permalink: contact.html
 hero:
 - id:
   full-screen: false

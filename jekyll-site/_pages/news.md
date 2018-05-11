@@ -1,8 +1,8 @@
 ---
 
+layout: news
 title: News
-layout: about
-permalink: ../news.html
+permalink: news.html
 hero:
 - id:
   full-screen: false

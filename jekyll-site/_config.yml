@@ -1,8 +1,9 @@
 # Site settings
 title: u!magine
+tagline: Innovate Incubate Educate
 email: uimagine@csu.edu.ai
-description: "Jekyll Theme built using CSS Grid"
-baseurl: "/jekyll-site/" # the subpath of your site, e.g. /blog/
+description: "uImagine is the Learning Innovations Lab at Charles Sturt University"
+baseurl: /stuff/
 logo: assets/images/uimagine-rev.svg
 
 
@@ -10,18 +11,22 @@ logo: assets/images/uimagine-rev.svg
 encoding: utf-8
 
 #social
-social-twitter: kelpieapp
-social-facebook: kelpieapp
-social-linkedin: company/kelpie
+social-twitter: uimagine_csu
+social-facebook: uimagine.csu
+social-linkedin:
+social-youtube: UCq0r8DVFLLK3YtFylr0KxtQ/videos
+social-flickr: uimagine
+social-instagram: uimagine_csu
 
 #contacts
-contact-email:
-contact-address:
+contact-email: uimagine@csu.edu.au
+contact-address: "Boorooma Street, Wagga Wagga, Australia"
 contact-phone:
+contact-name: uImagine Team
 
 # Setup for pages
 include: ["_pages"]
-permalink: /:categories/:title.html
+permalink: /:year/:title.html
 
 # Setup for Categories
 
@@ -29,6 +34,9 @@ permalink: /:categories/:title.html
 # Setup for Collections
 collections:
   events:
+    output: true
+    permalink: /:collection/:name
+  projects:
     output: true
     permalink: /:collection/:name
 
@@ -64,7 +72,7 @@ team:
     greeting: Tim
     position: Co-Founder
     bio: "Tim has a background in Graphic Design and Multimedia and has been working in the Education sector for the last decade. During this time Tim has worked on large and small scale innovations and implementations of new and emerging technologies. He has a knack for acting as a translator between users and technical staff, helping both to understand each other and deliver solutions that work."
-    photo: /assets/images/tim-mugshot.jpg
+    photo:
     email: thekelpieapp@gmail.com
     twitter: timklapdor
     linkedin: timklapdor
@@ -72,7 +80,7 @@ team:
     greeting: Ben
     position: Co-Founder
     bio: "Ben has a background in multimedia development and is currently studying his Masters in App Development. Working across a number of industries Ben is able to adapt and work across multiple disciplines and environments. From video to print to digital, Ben has done it all. He brings enthusiasm and keen problem solving skills to the team."
-    photo: /assets/images/ben-mugshot.jpg
+    photo:
     email: thekelpieapp@gmail.com
     twitter: rockickarse
     linkedin: ben-atkinson-72478553

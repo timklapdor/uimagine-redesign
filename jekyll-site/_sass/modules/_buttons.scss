@@ -1,23 +1,59 @@
 
 .btn-rev {
   color: $rev;
-  -webkit-transform: translateZ(0);
+  transition: all 0.3s ease 0s;
 
-  &:hover {
-    background: rgba($primary, .9);
+&:hover {
+    background: rgba($brand, .9);
     box-shadow: $shadow-4;
   }
 }
 
-
 .btn-blk {
   color: $blk;
-  -webkit-transform: translateZ(0);
+  transition: all 0.3s ease 0s;
 
-  &:hover {
+&:hover {
     color: $rev;
-    background: rgba($primary, .9);
+    background: rgba($brand, .9);
     box-shadow: $shadow-2;
+}
+}
+
+.btn-nav {
+  width:100%;
+  transition: all 0.3s ease 0s;
+  font-size: 100%;
+  padding: 1em 1em;
+  text-transform: uppercase;
+  border-radius: .5em;
+  text-decoration: none;
+  background: transparent;
+  text-align: center;
+  margin: 5vh 0 0 0;
+}
+
+.prev {
+&:hover {
+  color: $rev;
+  background: rgba($brand, .9);
+  box-shadow: $shadow-2;
+}
+
+&:before {
+  content: '\2190\00a0';
+}
+}
+
+.next {
+&:hover {
+  color: $rev;
+  background: rgba($brand, .9);
+  box-shadow: $shadow-2;
+}
+
+&:after {
+  content: '\2192\00a0';
 }
 }
 
@@ -56,9 +92,9 @@
 
   &:hover {
     color: #af1a00;
-    background: $primary;
+    background: $brand;
     box-shadow: $shadow-2;
-    // border: $primary;
+    // border: $brand;
 }
 }
 
@@ -66,7 +102,7 @@
 input:focus,
 textarea:focus {
   -webkit-transform: translateZ(0);
-  outline: 1px solid $primary;
+  outline: 1px solid $brand;
 }
 
 input,

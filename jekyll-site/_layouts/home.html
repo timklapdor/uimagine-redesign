@@ -11,12 +11,24 @@ layout: default
 {% endfor %}
 
 <!--  Grid Area -->
-{% if page.griditems %}
+{% for item in page.grid-1 %}
   {% include card-grid.html %}
-{% endif %}
+{% endfor %}
 
 <!--  Feature -->
 
-{% for item in page.feature %}
+{% for item in page.feature-1 %}
+  {% include feature.html %}
+{% endfor %}
+
+
+<!--  Grid Area -->
+{% for item in page.grid-2 %}
+  {% include card-grid.html %}
+{% endfor %}
+
+<!--  Feature -->
+
+{% for item in page.feature-2 %}
   {% include feature.html %}
 {% endfor %}

@@ -1,6 +1,6 @@
 header {
-  color: $grey;
-  background: $secondary;
+  color: $brand-1;
+  background: $brand-1;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -49,7 +49,7 @@ img {
 @media only screen and (min-width:600px){
   header {
     flex-direction: row;
-    background: $secondary-rgb;
+    background: $brand-1-rgb;
 
     div.social {
       // padding-left: 5vw;

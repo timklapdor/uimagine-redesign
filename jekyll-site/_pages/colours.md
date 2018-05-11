@@ -1,8 +1,8 @@
 ---
 
-title: Kelpie Colours
 layout: palette
-permalink: ../colours.html
+title: Site Colours
+permalink: colours.html
 colours:
 - ui-blue
 - ui-pink
@@ -14,7 +14,7 @@ hero:
 - id:
   full-screen: false
   gradient-corner: top
-  gradient-side: 
+  gradient-side:
   gradient-color1: "203,0,68"
   gradient-color2: "215,31,133"
   image:

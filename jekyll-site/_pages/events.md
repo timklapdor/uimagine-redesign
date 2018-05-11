@@ -1,33 +1,24 @@
 ---
-
-title: Events
-layout: about
-permalink: ../events.html
+layout: events
+title: uImagine Events
+permalink: events/index.html
 hero:
 - id:
   full-screen: false
   gradient-corner: top
   gradient-side: left
-  gradient-color1: "0,175,216"
-  gradient-color2: "203,0,68"
+  gradient-color1: "203,0,68"
+  gradient-color2: "0,175,216"
   image:
   promo-head: Events
-feature:
-- id:
-  full-screen: false
-  gradient-corner: bottom
-  gradient-side:
-  gradient-color1: "255,83,53,1"
-  gradient-color2: "255,83,53,1"
-  image:
-  text-area:
-  - size: centered
-    heading: Want to now what Kelpie does?
-    text: ""
-    button: Explore Features
-    button-class: btn-rev
-    button-link: features.html
-
+  promo-text:
+  button-class:
+  button-text:
+  button-link:
+item-color: "203,0,68"  
+kind: events
+archive:
+- category: status
 ---
 
 ### Directions

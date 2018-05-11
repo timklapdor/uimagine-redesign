@@ -1,8 +1,8 @@
 ---
 
-title: Thank You!
 layout: message
-permalink: ../thank-you.html
+title: Thank You!
+permalink: thank-you.html
 hero:
 - id:
   full-screen: true
